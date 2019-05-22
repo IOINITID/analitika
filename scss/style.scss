@@ -103,6 +103,11 @@ body {
   }
 }
 
+.you-will-have-wrapper {
+  padding-top: 90px;
+  padding-bottom: 130px;
+}
+
 .you-will-have {
   display: flex;
   justify-content: center;
@@ -114,7 +119,49 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    padding-top: 90px;
+    // padding-top: 90px;
     padding-bottom: 140px;
   }
+}
+
+.features-list {
+  display: flex;
+  width: 100%;
+
+  .features-item {
+    text-align: center;
+
+    img {
+      object-fit: contain;
+      padding-bottom: 65px;
+    }
+
+    p {
+      color: #544659;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      // line-height: 24px;
+    }
+  }
+}
+
+.tariffs-wrapper {
+  padding-top: 125px;
+  padding-bottom: 105px;
+}
+
+.tariffs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tariffs-title {
+  color: #544659;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 90px;
 }

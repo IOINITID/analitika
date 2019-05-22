@@ -102,6 +102,11 @@ body {
   background-color: #70487f;
 }
 
+.you-will-have-wrapper {
+  padding-top: 90px;
+  padding-bottom: 130px;
+}
+
 .you-will-have {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,7 +125,56 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 700;
-  padding-top: 90px;
   padding-bottom: 140px;
+}
+
+.features-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.features-list .features-item {
+  text-align: center;
+}
+
+.features-list .features-item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-bottom: 65px;
+}
+
+.features-list .features-item p {
+  color: #544659;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.tariffs-wrapper {
+  padding-top: 125px;
+  padding-bottom: 105px;
+}
+
+.tariffs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.tariffs-title {
+  color: #544659;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 90px;
 }
 /*# sourceMappingURL=style.css.map */
