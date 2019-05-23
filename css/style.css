@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', "Arial", "Helvetica", sans-serif;
 }
 
 .header-background {
@@ -36,7 +36,6 @@ body {
 
 .header-top p {
   color: #2a292b;
-  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
 }
@@ -47,7 +46,6 @@ body {
 
 .tel-wrapper a {
   color: #2a292b;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -59,14 +57,12 @@ body {
 
 .header-center h1 {
   color: #2a292b;
-  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
 
 .header-center p {
   color: #2a292b;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   padding-top: 40px;
@@ -83,7 +79,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -122,7 +117,6 @@ body {
 
 .you-will-have .you-will-have-title {
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 140px;
@@ -147,9 +141,9 @@ body {
 
 .features-list .features-item p {
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 24px;
 }
 
 .tariffs-wrapper {
@@ -176,7 +170,6 @@ body {
 
 .tariffs-title {
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 90px;
@@ -206,7 +199,6 @@ body {
 
 .tariffs-link-wrapper .tariffs-link a {
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
@@ -247,14 +239,12 @@ body {
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd9df;
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 
 .tariffs-item-wrapper p {
   color: #b3aeb5;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
   padding-top: 50px;
@@ -262,7 +252,6 @@ body {
 
 .tariffs-item-wrapper span {
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 700;
   padding: 10px 0 50px 0;
@@ -270,7 +259,6 @@ body {
 
 .tariffs-item-wrapper a {
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   width: 100%;
@@ -304,7 +292,6 @@ body {
 
 .tariffs-text-wrapper p {
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -316,7 +303,6 @@ body {
 
 .what-is-included .what-is-included-item {
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
   display: -webkit-box;
@@ -350,7 +336,6 @@ body {
 .what-is-included:nth-child(1) .what-is-included-item:nth-child(1), .what-is-included:nth-child(1) .what-is-included-item:nth-child(2), .what-is-included:nth-child(1) .what-is-included-item:nth-child(3) {
   padding: 30px 0;
   color: #544659;
-  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -368,5 +353,87 @@ body {
 .what-is-included-item {
   border: 1px solid #ddd9df;
   background-color: #ffffff;
+}
+
+.devider {
+  background-color: #e3e1e5;
+  height: 1px;
+  width: 100%;
+  margin: 0;
+  margin-top: 105px;
+  margin-bottom: 100px;
+}
+
+.free-services-wrapper .free-services h2 {
+  text-align: center;
+  color: #544659;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 120px;
+}
+
+.free-services-item a {
+  color: #544659;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.free-services-item a:hover, .free-services-item a:focus {
+  background-color: #ffffff;
+  border-bottom: 4px solid #8d5a9f;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+.free-services-list-wrapper:last-child {
+  padding-bottom: 40px;
+}
+
+.service-connect {
+  border-radius: 4px;
+  border: 1px solid #ddd9df;
+  background-color: #ffffff;
+  padding: 65px 95px 85px 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-connect h3 {
+  color: #544659;
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.service-connect p {
+  color: #544659;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
 }
 /*# sourceMappingURL=style.css.map */
