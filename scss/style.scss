@@ -1560,4 +1560,10 @@ body {
       padding-top: 50px;
     }
   }
+  .free-services-item {
+    a {
+      // border-bottom: 4px solid #8d5a9f;
+      text-decoration: underline;
+    }
+  }
 }
