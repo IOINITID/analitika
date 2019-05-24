@@ -1415,7 +1415,7 @@ body {
   }
 
   .header-background {
-    min-height: 700px;
+    min-height: 650px;
   }
 
   .you-will-have {
@@ -1548,5 +1548,11 @@ body {
 
   .service-connect {
     padding: 20px;
+  }
+
+  .you-will-have {
+    .you-will-have-title {
+      padding-top: 50px;
+    }
   }
 }

@@ -1325,7 +1325,7 @@ body {
     margin-left: 0;
   }
   .header-background {
-    min-height: 700px;
+    min-height: 650px;
   }
   .you-will-have .you-will-have-title {
     font-size: 18px;
@@ -1405,6 +1405,9 @@ body {
   }
   .service-connect {
     padding: 20px;
+  }
+  .you-will-have .you-will-have-title {
+    padding-top: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
