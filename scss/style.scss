@@ -43,10 +43,12 @@ body {
     font-weight: 700;
   }
 }
+
 .tel-wrapper-desktop {
   margin-left: auto;
   text-align: right;
   padding-right: 0;
+
   a {
     img {
       width: 30px;
@@ -57,7 +59,7 @@ body {
 
 .header-center {
   width: 100%;
-  margin-top: 180px;
+  margin-top: 230px;
 
   h1 {
     color: #2a292b;
@@ -1121,6 +1123,7 @@ body {
       font-size: 20px;
     }
   }
+
   .tel-wrapper-desktop {
     display: none;
   }
