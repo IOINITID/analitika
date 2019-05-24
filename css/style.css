@@ -862,6 +862,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  cursor: pointer;
 }
 
 .questions-and-answers-list .questions-and-answers-top h3 {
