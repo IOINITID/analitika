@@ -178,7 +178,7 @@ body {
 
 .tariffs-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
 
   .tariffs-item {
@@ -193,6 +193,7 @@ body {
   padding: 20px 20px 60px 20px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 
   h3 {
     padding-bottom: 20px;
@@ -516,12 +517,8 @@ body {
 
 .our-services-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
-
-  &:nth-child(1) {
-    padding-bottom: 30px;
-  }
 
   .our-services-item {
     text-align: center;
@@ -535,6 +532,7 @@ body {
   padding: 20px 20px 60px 20px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 
   h3 {
     padding-bottom: 20px;
@@ -833,10 +831,56 @@ body {
   }
 }
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+  .tel-wrapper {
+    a {
+      font-size: 14px;
+    }
+  }
 
-@media (max-width: 575.98px) {}
+  .header-center {
+    margin-top: 100px;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    a {
+      margin-bottom: 100px;
+    }
+  }
+
+  .free-services-item {
+    a {
+      height: 100%;
+    }
+  }
+
+  .how-we-work-item {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .have-questions-wrapper {
+    h2 {
+      font-size: 30px;
+    }
+    a {
+      font-size: 35px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {}
 
 @media (max-width: 767.98px) {}
 
-@media (max-width: 991.98px) {}
+@media (max-width: 575.98px) {}
