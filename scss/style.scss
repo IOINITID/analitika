@@ -36,12 +36,22 @@ body {
 }
 
 .tel-wrapper {
-  margin-left: auto;
 
   a {
     color: #2a292b;
     font-size: 16px;
     font-weight: 700;
+  }
+}
+.tel-wrapper-desktop {
+  margin-left: auto;
+  text-align: right;
+  padding-right: 0;
+  a {
+    img {
+      width: 30px;
+      height: 30px;
+    }
   }
 }
 
@@ -53,6 +63,7 @@ body {
     color: #2a292b;
     font-size: 30px;
     font-weight: 700;
+    line-height: 35px;
   }
 
   p {
@@ -60,6 +71,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     padding-top: 40px;
+    line-height: 24px;
   }
 
   a {
@@ -1108,6 +1120,9 @@ body {
     a {
       font-size: 20px;
     }
+  }
+  .tel-wrapper-desktop {
+    display: none;
   }
 
   .you-will-have-title {
