@@ -1403,5 +1403,8 @@ body {
   .header-info-wrapper {
     display: block;
   }
+  .service-connect {
+    padding: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
