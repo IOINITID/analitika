@@ -269,6 +269,10 @@ body {
     align-items: center;
     padding: 20px 0;
 
+    p {
+      line-height: 24px;
+    }
+
     &:nth-child(1) {
       padding-left: 20px;
     }
@@ -603,6 +607,7 @@ body {
 .how-we-work-list {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
 
   .how-we-work-item {
     text-align: center;
@@ -726,6 +731,7 @@ body {
       color: #713287;
       font-size: 18px;
       font-weight: 700;
+      line-height: 24px;
     }
   }
 
@@ -954,6 +960,28 @@ body {
       font-size: 30px;
     }
   }
+  .how-we-work-list {
+    .how-we-work-item {
+      text-align: center;
+      margin-bottom: 50px;
+
+      &:nth-child(3) {
+        position: relative;
+
+        &::before {
+         display: none;
+        }
+      }
+    }
+  }
+  .have-questions-wrapper {
+    h2 {
+      font-size: 30px;
+    }
+    a {
+      font-size: 30px;
+    }
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -979,6 +1007,21 @@ body {
       }
     }
   }
+.how-we-work-list {
+  .how-we-work-item {
+    text-align: center;
+    margin-bottom: 50px;
+
+    &:nth-child(2) {
+      position: relative;
+
+      &::before {
+       display: none;
+      }
+    }
+  }
+}
+
 }
 
 @media (max-width: 767.98px) {}
