@@ -109,9 +109,11 @@ body {
 .features-list {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
 
   .features-item {
     text-align: center;
+    margin-bottom: 30px;
 
     img {
       object-fit: contain;
@@ -123,6 +125,7 @@ body {
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
+      padding-bottom: 20px;
     }
   }
 }
@@ -860,9 +863,11 @@ body {
     }
   }
 
-  .how-we-work-item {
-    p {
-      font-size: 14px;
+  .how-we-work-list {
+    .how-we-work-item {
+      p {
+        font-size: 14px;
+      }
     }
   }
 
@@ -870,16 +875,111 @@ body {
     h2 {
       font-size: 30px;
     }
+
     a {
       font-size: 35px;
     }
+
     p {
       font-size: 14px;
     }
   }
+
+  .client-reviews-wrapper {
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .questions-and-answers-wrapper {
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .services-quality-wrapper {
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .how-we-work-wrapper {
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .our-services-wrapper {
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .special-offer {
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .free-services-wrapper {
+    .free-services {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .tariffs-title {
+    font-size: 30px;
+  }
+
+  .tariffs-link-wrapper {
+    .tariffs-link {
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .you-will-have {
+    .you-will-have-title {
+      font-size: 30px;
+    }
+  }
 }
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+  .header-background {
+    background-position: center;
+  }
+
+  .header-center {
+    h1 {
+      font-size: 20px;
+    }
+
+    p {
+      width: 500px;
+      line-height: 20px;
+    }
+  }
+
+  .tariffs-link-wrapper {
+    .tariffs-link {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
 
 @media (max-width: 767.98px) {}
 
