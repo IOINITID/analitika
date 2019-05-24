@@ -1065,6 +1065,10 @@ body {
 }
 
 @media (max-width: 767.98px) {
+  .header-background {
+    background-image: url("../img/header-background-clear.png");
+  }
+
   .header-center {
     h1 {
       font-size: 30px;
@@ -1082,6 +1086,7 @@ body {
       width: 100%;
       font-size: 22px;
       height: 70px;
+      border: 2px solid #a37ab2;
     }
   }
 
@@ -1090,12 +1095,13 @@ body {
 
     p {
       font-size: 18px;
+      margin-left: 20px;
     }
   }
 
   .tel-wrapper {
     a {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 
@@ -1143,26 +1149,226 @@ body {
   .tariffs-wrapper {
     padding: 50px 0;
   }
+
   .tariffs-title {
     padding-bottom: 30px;
   }
+
   .tariffs-text-wrapper {
     padding: 20px 0 50px 0;
   }
+
   .devider {
     margin: 50px 0;
   }
+
   .service-connect {
     padding: 50px;
   }
+
   .special-offer {
     height: 550px;
+
     h2 {
       padding: 50px 0;
     }
   }
+
   .our-services {
     padding: 50px 0;
+  }
+
+  .how-we-work {
+    padding: 50px 0;
+
+    h2 {
+      padding-bottom: 80px;
+    }
+
+    .how-we-work-list {
+      .how-we-work-item {
+        img {
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .questions-and-answers-wrapper {
+    padding: 50px 0;
+
+    h2 {
+      padding-bottom: 50px;
+    }
+  }
+
+  .client-reviews-wrapper {
+    padding: 50px 0;
+
+    h2 {
+      padding-bottom: 50px;
+    }
+  }
+
+  .have-questions-wrapper {
+    padding: 50px 0;
+  }
+
+  .services-quality-wrapper {
+    padding: 50px 0;
+
+    h2 {
+      padding-bottom: 50px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    a {
+      font-size: 18px;
+    }
+  }
+
+  .our-services-wrapper {
+    h2 {
+      padding-bottom: 50px;
+    }
+
+    p {
+      padding-bottom: 50px;
+    }
+  }
+
+  .you-will-have {
+    .you-will-have-title {
+      padding-bottom: 80px;
+    }
+  }
+
+  .features-list {
+    .features-item {
+      img {
+        padding-bottom: 30px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .tariffs-item-wrapper {
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    a {
+      font-size: 20px;
+    }
+  }
+
+  .tariffs-link-wrapper-mobile {
+    select {
+      font-size: 20px;
+    }
+  }
+
+  .tariffs-text-wrapper {
+    p {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  .free-services-item {
+    a {
+      font-size: 20px;
+    }
+  }
+
+  .service-connect {
+    h3 {
+      font-size: 28px;
+      padding-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .special-offer-item {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .our-services-item-wrapper {
+    p {
+      font-size: 18px;
+    }
+
+    span {
+      font-size: 22px;
+    }
+
+    a {
+      font-size: 18px;
+    }
+  }
+
+  .how-we-work-list {
+    .how-we-work-item {
+      h3 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .questions-and-answers-list {
+    .questions-and-answers-top {
+      h3 {
+        font-size: 20px;
+      }
+    }
+    .questions-and-answers-bottom {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  .client-reviews-item-top {
+    span {
+      font-size: 18px;
+    }
+  }
+  .client-reviews-item {
+    p {
+      font-size: 18px;
+    }
+  }
+  .have-questions-wrapper {
+    h2 {
+      font-size: 24px;
+    }
+    a {
+    font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+    }
   }
 }
 
