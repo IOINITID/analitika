@@ -551,7 +551,7 @@ body {
   transition: 0.25s ease-in-out;
 }
 
-.special-offer-order::active {
+.special-offer-order:active {
   color: #ffffff;
   text-decoration: none;
   background-color: #70487f;
@@ -767,7 +767,7 @@ body {
   background-color: #e5006a;
 }
 
-.services-quality-wrapper a::active {
+.services-quality-wrapper a:active {
   background-color: #cc005e;
 }
 
@@ -908,7 +908,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .have-questions-wrapper p {
