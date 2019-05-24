@@ -1407,6 +1407,7 @@ body {
 
   .header-info-wrapper {
     display: none;
+
     p {
       font-size: 14px;
       margin-left: 0;
@@ -1532,6 +1533,7 @@ body {
   .tel-wrapper-mobile {
     display: block;
     text-align: center;
+
     a {
       img {
         width: 40px;
@@ -1543,8 +1545,8 @@ body {
   .header-info-wrapper {
     display: block;
   }
+
   .service-connect {
     padding: 20px;
   }
-
 }
