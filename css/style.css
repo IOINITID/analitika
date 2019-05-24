@@ -1296,6 +1296,9 @@ body {
   .have-questions-wrapper p {
     font-size: 18px;
   }
+  .you-will-have .you-will-have-title {
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -1309,7 +1312,7 @@ body {
   .header-center p {
     width: auto;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 24px;
     padding-top: 20px;
   }
   .header-center a {
@@ -1394,7 +1397,7 @@ body {
   }
   .tel-wrapper-mobile {
     display: block;
-    text-align: center;
+    text-align: right;
   }
   .tel-wrapper-mobile a img {
     width: 40px;
