@@ -185,7 +185,7 @@ body {
   color: #544659;
   font-size: 36px;
   font-weight: 700;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 
 .tariffs-link-wrapper {
@@ -218,6 +218,7 @@ body {
   display: block;
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 .tariffs-link-wrapper-mobile {
